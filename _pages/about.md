@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am Kamil, some people call me Slim (means slug). In September 2015 I joined lab of Marc Robinson-Rechavi at University of Lausanne as PhD student. 
+Hi, I am Kamil, some people call me Slim (means slug). In September 2015 I joined lab of [Marc Robinson-Rechavi](http://www.unil.ch/dee/en/home/menuinst/people/group-leaders/prof-marc-robinson-rechavi.html) at University of Lausanne as PhD student. 
