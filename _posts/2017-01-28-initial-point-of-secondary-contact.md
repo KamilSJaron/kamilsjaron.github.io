@@ -1,7 +1,7 @@
 ---
 title: 'Initial point of secondary contact'
 date: 2017-01-28
-permalink: /posts/2017/01/28/initial-point-of-secondary-contact/
+permalink: /posts/2017/01/initial-point-of-secondary-contact/
 tags:
   - evolution
   - speciation
@@ -9,7 +9,6 @@ tags:
   - secondary contact
   - Conjunction
   - simulation
-
 ---
 
 One of the most basic questions of evolutionary biology remains unanswered - how do species evolve? And what makes species separated species? What is causing sexual reproduction barrier between sister taxa? One of very popular systems for study of speciation are [hybrid zones](https://en.wikipedia.org/wiki/Hybrid_zone).
