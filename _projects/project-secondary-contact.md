@@ -1,5 +1,6 @@
 ---
-title: "Model of secondary contact hybrid zones"
+title: "Conjunction: a simulator of secondary CONtact using Firsher's JUNCTION model of admixture."
+excerpt: "How does a normal multilocus hybrid zone look like?"
 collection: projects
 ---
 

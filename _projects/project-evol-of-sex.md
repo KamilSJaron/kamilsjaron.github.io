@@ -1,10 +1,10 @@
 ---
-title: "Effect of ancient asexuality to shape of a genome"
-excerpt: "Timema poppensis hiding on redwood. "
+title: "The evolution of genomes of asexual species"
+excerpt: "How many transposonable elements can you fit in one asexual genome?"
 collection: projects
 ---
 
-How comes that metazoan asexual lineages are only at the tips of the tree of life? If the sex provides an advantage, how comes that we still observe so many asexual species? What are consequences from absence of sex?
+How comes that animal asexual lineages are only at the tips of the tree of life? If the sex provides an advantage, how comes that we still observe so many asexual species? What are consequences from absence of sex?
 
 The system we are working on to address these questions is a genus of stick insects _Timema_ that contains at least seven independently derived asexual lineages. This genus represent a great opportunity to access direct effect of asexuality. We sequence pairs of genomes of sexual and asexual sister species, which allows us to confront all verbal models about parthenogenesis created in past century.
 

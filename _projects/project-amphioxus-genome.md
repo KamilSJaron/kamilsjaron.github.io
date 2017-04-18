@@ -1,5 +1,6 @@
 ---
-title: "Amphioxus genome"
+title: "Amphioxus reference genome"
+excerpt: "Is there a critical haplotype divergence that would disable recombination?"
 collection: projects
 ---
 
