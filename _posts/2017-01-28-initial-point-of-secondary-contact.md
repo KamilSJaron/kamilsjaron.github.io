@@ -1,4 +1,6 @@
 ---
+layout: post
+comments: true
 title: 'Initial point of secondary contact'
 date: 2017-01-28
 permalink: /posts/2017/01/initial-point-of-secondary-contact/
