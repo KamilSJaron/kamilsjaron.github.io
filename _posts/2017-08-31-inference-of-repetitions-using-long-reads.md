@@ -45,4 +45,19 @@ Challenges I see :
   - formate output appropriately (sort of feature file?)
   - inference of states from polyploids
 
+### update 17.11.2017
+
+Thanks to brief correspondence with Alexander Suh I found there is method for quantifying a TE abbundance from long reads using reference set of transposon and reference genome called [LoRTE](https://doi.org/10.1186/s13100-017-0088-x). The method takes a reference genome with annotated TEs, extract flanking regions around known TEs in the reference and map these flaking reagions to long reads. If the flaking regions are mapping in an approximately TE distance from each other, it's just a TE in the same position at the reference, if the flaking regions mapping very close to each other, TE is absent in the sequenced individual. All the TEs found in long reads get masked. Then a library of TEs is mapped to masked reads scanning for remaining TEs that are absent in the reference. The procedue is very sound and they also report very good results on benchmarking. However thre is still the downside of the need of a reference genome with annotated TEs.
+
+I just saw a vert new method [RepLong](https://doi.org/10.1093/bioinformatics/btx717) for de novo repeat identification using long read sequencing data. This method is analogical to search for overlaps between reads. It constructs a graph of overlaps and using modularity optimization for identification of more interconnected areas of graph. Apparently I am not the only one who reads dazzlerblog.
+
+My conclusion is that I do not have to invest time in implementation and I am happy that I can use methods of others. 
+
+ Maybe a combined method using both the idea of flanking regions and the idea of overlaps of reads...
+
+
+
+
+
+
 ------
