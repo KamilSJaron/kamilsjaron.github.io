@@ -1,7 +1,7 @@
 ---
 title: "SigHunt: horizontal gene transfer finder optimized for eukaryotic genomes"
 collection: publications
-permalink: /publications/2014-12-25-SigHunt-horizontal-gene-transfer-finder-optimized-for-eukaryotic-genomes
+permalink: /publications/2013-12-25-SigHunt-horizontal-gene-transfer-finder-optimized-for-eukaryotic-genomes
 excerpt: 'A scalable method for prediction of candidates for horizontally transferred genes.'
 date: 2013-12-25
 venue: 'Bioinformatics'

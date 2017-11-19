@@ -1,6 +1,6 @@
 ---
 title: 'Reference-free inference of repetitions using long reads'
-date: 2018-08-31
+date: 2017-08-31
 permalink: /posts/2017/08/inference-of-repetitions-using-long-reads/
 tags:
   - evolution
