@@ -6,7 +6,7 @@ excerpt: 'A scalable method for prediction of candidates for horizontally transf
 date: 2013-12-25
 venue: 'Bioinformatics'
 paperurl: 'http://doi.org/10.1093/bioinformatics/btt727'
-citation: 'Kamil S. Jaron, Jiří C. Moravec, Natália Martínková; SigHunt: horizontal gene transfer finder optimized for eukaryotic genomes. Bioinformatics 2014; 30 (8): 1081-1086. doi: 10.1093/bioinformatics/btt727'
+citation: 'Jaron, K.S., Moravec, J.C. and Martínková, N., 2013. &quot;SigHunt: horizontal gene transfer finder optimized for eukaryotic genomes.&quot; <i>Bioinformatics</i>, 30(8), pp.1081-1086.'
 ---
 
 This was a project of despair. I have seen how terribly ineffective and wrong are previous methods for the same purpose. In performance we beat the other tools, in accuracy of prediction, we have not improved much though. Since then a couple new tools got published, currently I would recommend for naive prediction of horizontally transferred genes [MTGIpick](https://doi.org/10.1093/bib/bbw118). I never tried it, but the paper introduces some really neat ideas.
