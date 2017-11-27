@@ -1,6 +1,6 @@
 ---
 title: 'Loss of heterozygosity during inbreeding'
-date: 2017-01-28
+date: 2017-10-28
 permalink: /posts/2017/10/inbreeding_heterozygosity_loss/
 tags:
   - evolution
@@ -40,7 +40,7 @@ I calculated transition probabilities between states manually on whiteboard, you
 
 ![mc_scheme](https://raw.githubusercontent.com/KamilSJaron/inbreeding_heterozygosity_loss/master/figures/markov_chain_scheme.png)
 
-Then calculating mean time of reaching absorb state can be achieved through fundamental matrix (take a look on lines 7 - 27 in [the R script](mc_analysis.R)), see following table
+Then calculating mean time of reaching absorb state can be achieved through fundamental matrix (take a look on lines 7 - 27 in [the R script](https://github.com/KamilSJaron/inbreeding_heterozygosity_loss/blob/master/mc_analysis.R)), see following table
 
 | initial state  |  mean number of generations  |
 | -------------- | ---------------------------- |
