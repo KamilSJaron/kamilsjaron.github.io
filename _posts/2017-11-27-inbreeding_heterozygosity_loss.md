@@ -9,10 +9,6 @@ tags:
   - heterozygosity
 ---
 
-
-
-# Loss of heterozygosity during inbreeding
-
 This beauty is _Bacillus rossius_ a proud mum of the tiny green stick insect crawling over her. You are maybe asking, who is father? Well, it's her brother.
 
 ![bacillus_rossius](https://raw.githubusercontent.com/KamilSJaron/inbreeding_heterozygosity_loss/master/figures/bacillus_rossius_mum_with_baby.jpg)
@@ -64,6 +60,7 @@ I was initially interested in potential sequencing of the genome. Then single lo
 ![heterozygosity_loss_vs_loci](https://raw.githubusercontent.com/KamilSJaron/inbreeding_heterozygosity_loss/master/figures/heterozigosity_loss_num_of_ABCD_loci.png)
 
 It seems that to get fully homozygous genome I will need to wait ~30 generations. That sounds annoying. I calculated also the initial case `AA  AB` ([see an analogical Figure](https://raw.githubusercontent.com/KamilSJaron/inbreeding_heterozygosity_loss/master/figures/heterozigosity_loss_num_of_AAAB_loci.png)), but it's basically same thing shifted five generations to left.
+
  Maybe I should figure a better way to expand analysis to multiple loci. The probability of fully homozygous genome is too much, I should probably focus on probability of at least 95% of genome homozygous or maybe directly calculate proportion of homozygous loci in genome with confidence intervals... maybe another time.
 
 
