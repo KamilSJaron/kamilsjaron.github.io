@@ -64,7 +64,7 @@ layout: default
 
       {% if page.share %}{% include social-share.html %}{% endif %}
 
-      {% include disqus.html %}
+      {% if page.comments %}{% include disqus.html %}{% endif %}
 
       {% include post_pagination.html %}
     </div>
