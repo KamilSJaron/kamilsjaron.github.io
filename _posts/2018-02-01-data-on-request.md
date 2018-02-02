@@ -28,7 +28,7 @@ They send no notifications or warnings, just silently delete your data.
 Yes, I guess you now see where it goes...
 
 I made a [cron job](https://en.wikipedia.org/wiki/Cron) that scans my files and send me notification if anything is going to be erased[^2].
-But at beginning of this year we have an big software update including upgrade of operating system, during which they (again silently) erased all cron jobs running on our front-end.
+But at beginning of this year we had an big software update including upgrade of operating system, during which they (again silently) erased all cron jobs running on our front-end.
 I figured out today, because I found that I am missing some reads, but it was too late.
 Sadly I was not missing just some reads, but virtually all my data.
 The only files that have survived are those I collected / created this year,
@@ -44,6 +44,6 @@ Is there a way how to convince people to deposit data to public archives?
 [^1]: They provide archive service as well, however this data are stored on tapes for eternity and the service is [paid](https://www.vital-it.ch/services/pricing) per year.
 
 [^2]: It's forbidden to write scripts that periodically update timestamps of your files,
-but monitoring timestamps and sending files is not against any rule.
+but monitoring timestamps and sending notifications is not against any rule.
 
 ------
