@@ -1,6 +1,6 @@
 ---
 title: 'The expected genetic diversity of Iceland'
-date: 2017-10-28
+date: 2018-06-11
 permalink: /posts/2018/06/the_expected_genetic_diversity_of_iceland/
 tags:
   - evolution
@@ -23,8 +23,8 @@ The last thing that could save genetic diversity of macro species of Iceland is 
 
 So lets think of a "native" Icelandic plant, a that I lived there before human era, like _Betula pubsescence_. How much genetic diversity is going to be in the population? What do you think? I guess that in 10,000 generation there is no way to have more than negligible numbers, I would guess something like human.
 
-The good news is that there actually people who are into _Betulas_. The bad news is that the Icelandic _Betula_ species hybridize (check [this]([frequent hybridization](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1601-5223.1999.00191.x) paper). I was not sure about those triploids, but there is a population genomics dataset of _Betulas_ and apparently they can be also tetraploids and admix for more than one generation, it's in the supplement [this paper](https://www.nature.com/articles/ng.3862).
-I conclude that a lot of variability in Icelandic population could have been derived from secondary contact, so it's not a fair system to study founder effects / bottlenecks... However, I still think that my thoughts apply to everything without frequent gene flow, regardless if it's a secondary contact or migration from one of the continents around. My problem is that I don't know enough native plants of Iceland to search for further genomes, so I will stop right here.
+The good news is that there actually people who are into _Betulas_. The bad news is that the Icelandic _Betula_ species hybridize (check [this paper]([frequent hybridization](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1601-5223.1999.00191.x). I was not sure about those triploids, but there is a population genomics dataset of _Betulas_ and apparently they can be also tetraploids and admix for more than one generation, it's in the supplement of [this paper](https://www.nature.com/articles/ng.3862).
+I conclude that a lot of variability in Icelandic population of _Betula_ could have been derived from secondary contact, so it's not a fair system to check if the heterozygosity/population variability correspond to 10,000 years old founder effect/bottleneck... However, I still think that my thoughts apply to everything without frequent gene flow. It's the same if the gene flow is due to a secondary contact or a migration from one of the continents around. My problem is that I don't know enough native Icelandic plants to search for further genomes, so I will stop right here.
 
 
 
