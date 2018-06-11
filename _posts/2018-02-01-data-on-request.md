@@ -17,7 +17,7 @@ I thought that every paper needs to deposit data to DDBJ / EMBL-EBI / NCBI.
 This was also the case for genomes published in journals that actually claim that data need to be accessible as PloS Biology.
 
 It was too soon to get depressed.
-I have decided just to send emails to all the sloppy authors asking if they would kindly share data with me.
+I have decided just to send emails to all the authors asking if they would kindly share data with me.
 And they actually did, it was a lot of data pulling from file sharing services like dropbox.
 Some authors sooner, some authors latter, but during January I finally collected all the data I wanted.
 It felt great, but it was too soon to celebrate.
