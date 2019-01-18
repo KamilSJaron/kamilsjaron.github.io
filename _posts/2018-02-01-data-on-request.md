@@ -43,7 +43,6 @@ Is there a way how to convince people to deposit data to public archives?
 
 [^1]: They provide archive service as well, however this data are stored on tapes for eternity and the service is [paid](https://www.vital-it.ch/services/pricing) per year.
 
-[^2]: It's forbidden to write scripts that periodically update timestamps of your files,
-but monitoring timestamps and sending notifications is not against any rule.
+[^2]: It's forbidden to write scripts that periodically update timestamps of your files, but monitoring timestamps and sending notifications is not against any rule.
 
 ------
