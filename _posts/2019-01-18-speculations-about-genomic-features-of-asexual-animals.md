@@ -21,8 +21,7 @@ With such a great setting we found genomes of 24 different asexual species that 
 
 Analyzed species             |  Cellular mechanisms of asexuality
 :---------------------------:|:-------------------------------------:
-![](https://raw.githubusercontent.com/KamilSJaron/genomic-features-of-asexual-animals/master/figures/presentation/fig1a_sequenced_metazoans_cladogram_presentation.png)  |  
-![](https://raw.githubusercontent.com/KamilSJaron/genomic-features-of-asexual-animals/master/figures/presentation/fig1a_legend_cellular_mechanisms_of_asexuality.png) The analyzed species varied greatly in cellular mechanisms of asexuality (colour); ploidy levels (the black points) and origin of asexuality (not in the Figure). The black triangles are **possible** single origins of asexuality.
+![](https://raw.githubusercontent.com/KamilSJaron/genomic-features-of-asexual-animals/master/figures/presentation/fig1a_sequenced_metazoans_cladogram_presentation.png)  |  ![](https://raw.githubusercontent.com/KamilSJaron/genomic-features-of-asexual-animals/master/figures/presentation/fig1a_legend_cellular_mechanisms_of_asexuality.png) The analyzed species varied greatly in cellular mechanisms of asexuality (colour); ploidy levels (the black points) and origin of asexuality (not in the Figure). The black triangles are **possible** single origins of asexuality
 
 ### Heterozygosity
 
