@@ -11,4 +11,4 @@ citation: 'Mikulášek, K., Jaroň, K. S., Kulhánek, P., Bittová, M., & Havli�
 
 We showed nearly-deterministic relation of retention times of trinucleotides with their nucleotide composition. We modeled properties of trinucleotide molecules that actually explained most of the variability of the original model. I was invited to this study to construct models.
 
-Paper was published in evil journal, to get pdf please send me an email.
+Paper was published in an evil journal, to get pdf please send me an email.
