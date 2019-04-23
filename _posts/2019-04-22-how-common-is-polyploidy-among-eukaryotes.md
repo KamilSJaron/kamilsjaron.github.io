@@ -14,16 +14,64 @@ So I asked on Twitter and guess what, so many people have responded to the [twee
 
 ### polyploidy in exant species
 
+When I originally posted the question. The I actually meant the distribution among extant species. So here is a list of different taxonomical groups (they are bit random, sorry for that):
 
-### polyploidy from evolutionary perspective
+* Flowering plants
+  - [Meyers & Levin 2007](https://doi.org/10/bgbg5f): "Over 70% of all angiosperm species have a ploidal level increase somewhere in their evolutionary histories"
+* Red algae
+  - [Varela-Álvarez et al. 2018](https://www.nature.com/articles/s41598-018-26796-5): Study of three species of _Porphyra_. "Multiple ploidy levels and genome sizes were found in Porphyra _Porphyra_ species." and apparently it's not a simple polyploidy, but it's a bit messier: "In _P. linearis_, genetic differentiation was found among three polyploid lineages: triploid, tetraploid and mixoploids, representing different evolutionary units."
+* Frogs
+  - [Novikova et al 2019](https://doi.org/10.1101/593699): three indipendent polyploid species of Australian burrowing frogs in the genus _Neobatrachus_ (9 species seuqenced)
+* Mollusks
+  - [Goldman and LoVerde 1981](https://www.jstor.org/stable/2408272): Hybrid origin of polyploidy in freshwater snails from genus _Bulinus_. Species of _Bulinus_ complex are naturally in diploid, tetraploid, hexaploid and octoploid states.
+* Fungi
+  - [Campbell et al. 2016](https://www.ncbi.nlm.nih.gov/pubmed/27860510)
+  - [Jackson et al. 2018](https://www.nature.com/articles/s41586-018-0030-5) They have done a whole-genome sequencing of 1,011 _Saccharomyces cerevisiae_ isolates, mixture of wild and domesticated samples. Domesticated isolates exhibit high variation in ploidy, aneuploidy: 11.4% were polyploid (various ploidy levels) and 24.3% of the strains exhibited aneuploidy of at least one chromosome.
+  - [Todd et al. 2016](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5656283/)
+* Amoebas
+  - [Demin et al. 2018](https://link.springer.com/article/10.1134/S1990519X18010054) _Amoeba proteus_ and _A. borokensis_ shows something called “Cyclic polyploidy”
+* _Ciliates_
+  -  [Chen 1940](https://doi.org/10.1073/pnas.26.4.239): Polyploidy commonly found in _Paramecium bursaria_ is probably resulting from fusion of more than two pronuclei during conjugation.
+* Archea
+  - [Soppa 2011](http://www.biochemsoctrans.org/content/39/1/150): "Euryarchaea are typically oligoploid or polyploidy and their genome copy numbers are tightly regulated in response to growth phase and/or growth rate."
 
-([Van de Peer at al. 2017](https://www.nature.com/articles/nrg.2017.26)) - nice tree, strangely they call polyploidy dead end
+Contributions by [Thomas Wolfe](https://twitter.com/MupdnW), [Murray Cox](https://twitter.com/DrCompBio), [The Tattooed Future Fellow](https://twitter.com/schwessinger), [Mathieu Clément-Ziza](https://twitter.com/zetieum), [Mason Linscott](https://twitter.com/mason_linscott), [Cami Rosso](https://twitter.com/tweetycami).
+
+### Paleopolyploidy
+
+TODO: This section should be improved.
+
+Polyploidy was the ancestral state of almost all big taxonomical groups we have studied till now, sometimes we actually know about more than one round of polyplodization events. A very nice tree ([Van de Peer et al. 2017](https://www.nature.com/articles/nrg.2017.26)), although I don't understand how polyploidy can be view as a evolutionary dead end.
+
+[Blischak et al. 2018](https://doi.org/10.1146/annurev-ecolsys-121415-032302): "In this review, we discuss the prevalence of polyploidy across the tree of life"
+
+Contributions by [The Tattooed Future Fellow](https://twitter.com/schwessinger)
 
 ### consequences of polyploidy
 
+Here the topic is too complex, so I will just provide paper titles and links:
+
+* Fungi
+  - [Selmecki et al. 2016](https://www.nature.com/articles/nature14187): Polyploidy can drive rapid adaptation in yeast
+  - [Lu et al 2016](https://doi.org/10.1371/journal.pgen.1006409): Experimental Evolution Reveals Interplay between Sch9 and Polyploid Stability in Yeast
+  - [Albertin & Marullo 2012](https://doi.org/10.1098/rspb.2012.0434):  Polyploidy in fungi: evolution after whole-genome duplication
+* General
+  - [Otto 2007](https://doi.org/10.1016/j.cell.2007.10.022): The Evolutionary Consequences of Polyploidy
+  - [Baduel et al. 2018](https://doi.org/10.3389/fevo.2018.00117): The “Polyploid Hop”: Shifting Challenges and Opportunities Over the Evolutionary Lifespan of Genome Duplications
+
+Contributions by [The Tattooed Future Fellow](https://twitter.com/schwessinger)
+
 ### polyploidy within organisms
 
-### Conclusion
+- I suppose that this is not polyploidy sensu stricto, but human neurons, cardiac and skeletal muscle cells, megakaryocytes, trophoblast and other extra-embryonic cells (placenta) are polyploid. Hepatocytes are tetraploid.
+- _Ciliates_ (_Alveolata_) carry a diploid micronucleus (the germline of the cell) but also a polyploid macronucleus (the somatic nucleus; the one that carries all the gene expression and regulation).
+- There is the ever popular insect salivary gland polytene cells.
+- _C. elegans_ have polyploid intestine cells.
+
+Contributions by [Wallace Marshall](https://twitter.com/WallaceUcsf), [Benoit Bruneau](https://twitter.com/benoitbruneau), [Amy Shaub Maddox](https://twitter.com/AmyShaubMaddox), [Cami Rosso](https://twitter.com/tweetycami) and [Erika Anderson](https://twitter.com/Erikacander). Since it's bit off my own interest I have not tried to look up for any sources.
+
+
+### Discussion
 
 Polyploidy should not be seen as evolutionary dead end since there are so many lineages with polyploid ancestors.
 <!-- There was a discussion about it (check) -->
