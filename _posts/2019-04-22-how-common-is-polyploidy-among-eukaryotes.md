@@ -41,11 +41,14 @@ Contributions by [Thomas Wolfe](https://twitter.com/MupdnW), [Murray Cox](https:
 
 Polyploidy was the ancestral state of many big taxonomical groups we focused on - like two rounds of whole genome duplications[^1] in vertebrates, bony fishes, vast majority of land plants and likely lot more.
 
-I feel I can not elaborate more that two recent reviews:
+* Insects
+  - [Li at al. 2017](https://doi.org/10.1073/pnas.1710791115): "evidence for 18 ancient WGDs and at least six other bursts of gene duplication during the evolution of insects."
+
+* General (two recent reviews):
  - [Van de Peer et al. 2017](https://www.nature.com/articles/nrg.2017.26)[^2]
  - [Blischak et al. 2018](https://doi.org/10.1146/annurev-ecolsys-121415-032302): "In this review, we discuss the prevalence of polyploidy across the tree of life"
 
-Contributed by [The Tattooed Future Fellow](https://twitter.com/schwessinger)
+Contributed by [The Tattooed Future Fellow](https://twitter.com/schwessinger) and [Nils Arrigo](https://twitter.com/nilsarrigo)
 
 ### consequences of polyploidy
 
