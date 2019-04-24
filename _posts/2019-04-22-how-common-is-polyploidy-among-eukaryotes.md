@@ -39,42 +39,42 @@ Contributions by [Thomas Wolfe](https://twitter.com/MupdnW), [Murray Cox](https:
 
 ### Paleopolyploidy
 
-TODO: This section should be improved.
+Polyploidy was the ancestral state of many big taxonomical groups we focused on - like two rounds of whole genome duplications[^1] in vertebrates, bony fishes, vast majority of land plants and likely lot more.
 
-Polyploidy was the ancestral state of almost all big taxonomical groups we have studied till now, sometimes we actually know about more than one round of polyplodization events. A very nice tree ([Van de Peer et al. 2017](https://www.nature.com/articles/nrg.2017.26)), although I don't understand how polyploidy can be view as a evolutionary dead end.
+I feel I can not elaborate more that two recent reviews:
+ - [Van de Peer et al. 2017](https://www.nature.com/articles/nrg.2017.26)[^2]
+ - [Blischak et al. 2018](https://doi.org/10.1146/annurev-ecolsys-121415-032302): "In this review, we discuss the prevalence of polyploidy across the tree of life"
 
-[Blischak et al. 2018](https://doi.org/10.1146/annurev-ecolsys-121415-032302): "In this review, we discuss the prevalence of polyploidy across the tree of life"
-
-Contributions by [The Tattooed Future Fellow](https://twitter.com/schwessinger)
+Contributed by [The Tattooed Future Fellow](https://twitter.com/schwessinger)
 
 ### consequences of polyploidy
 
 Here the topic is too complex, so I will just provide paper titles and links:
 
+* General
+  - [Otto 2007](https://doi.org/10.1016/j.cell.2007.10.022): The Evolutionary Consequences of Polyploidy
+  - [Baduel et al. 2018](https://doi.org/10.3389/fevo.2018.00117): The “Polyploid Hop”: Shifting Challenges and Opportunities Over the Evolutionary Lifespan of Genome Duplications
 * Fungi
   - [Selmecki et al. 2016](https://www.nature.com/articles/nature14187): Polyploidy can drive rapid adaptation in yeast
   - [Lu et al 2016](https://doi.org/10.1371/journal.pgen.1006409): Experimental Evolution Reveals Interplay between Sch9 and Polyploid Stability in Yeast
   - [Albertin & Marullo 2012](https://doi.org/10.1098/rspb.2012.0434):  Polyploidy in fungi: evolution after whole-genome duplication
-* General
-  - [Otto 2007](https://doi.org/10.1016/j.cell.2007.10.022): The Evolutionary Consequences of Polyploidy
-  - [Baduel et al. 2018](https://doi.org/10.3389/fevo.2018.00117): The “Polyploid Hop”: Shifting Challenges and Opportunities Over the Evolutionary Lifespan of Genome Duplications
 
 Contributions by [The Tattooed Future Fellow](https://twitter.com/schwessinger)
 
 ### polyploidy within organisms
 
-- I suppose that this is not polyploidy sensu stricto, but human neurons, cardiac and skeletal muscle cells, megakaryocytes, trophoblast and other extra-embryonic cells (placenta) are polyploid. Hepatocytes are tetraploid.
+Reviewed in [Edgar and Orr-Weaver 2001](https://bit.ly/2W2oevv): In many animal some cells undergo endoreplication and generate somatic polyploid cells:
+- neurons, cardiac and skeletal muscle cells, megakaryocytes, trophoblast and other extra-embryonic cells (placenta) are polyploid. Hepatocytes are tetraploid.
 - _Ciliates_ (_Alveolata_) carry a diploid micronucleus (the germline of the cell) but also a polyploid macronucleus (the somatic nucleus; the one that carries all the gene expression and regulation).
 - There is the ever popular insect salivary gland polytene cells.
 - _C. elegans_ have polyploid intestine cells.
 
-Contributions by [Wallace Marshall](https://twitter.com/WallaceUcsf), [Benoit Bruneau](https://twitter.com/benoitbruneau), [Amy Shaub Maddox](https://twitter.com/AmyShaubMaddox), [Cami Rosso](https://twitter.com/tweetycami) and [Erika Anderson](https://twitter.com/Erikacander). Since it's bit off my own interest I have not tried to look up for any sources.
+Contributions by [Wallace Marshall](https://twitter.com/WallaceUcsf), [Benoit Bruneau](https://twitter.com/benoitbruneau), [Amy Shaub Maddox](https://twitter.com/AmyShaubMaddox), [Cami Rosso](https://twitter.com/tweetycami) and [Erika Anderson](https://twitter.com/Erikacander). Since it's bit off my own interest I have not tried to look up for sources of the individual statements.
 
-
-### Discussion
-
-Polyploidy should not be seen as evolutionary dead end since there are so many lineages with polyploid ancestors.
+<!-- ### Discussion -->
 <!-- There was a discussion about it (check) -->
 
+[^1]: I use here whole genome duplication for consistency with literature, however I dislike it very much because it sort of suggest that the ancestor was autopolyploid. However we have no information about the origin of duplication, the ancestral polyploid could be as well of a hybrid origin - allopolyploid.
 
+[^2]: They call polyploidy an evolutionary dead. I find that strange since there are so many lineages with polyploid ancestors. Perhaps I am missing something, but if nothing else it's very confusing notation.
 
