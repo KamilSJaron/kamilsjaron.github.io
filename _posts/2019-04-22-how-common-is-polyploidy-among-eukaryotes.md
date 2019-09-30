@@ -1,6 +1,6 @@
 ---
 title: 'How common is polyploidy among eukaryotes?'
-date: 2019-01-18
+date: 2019-04-22
 permalink: /posts/2019/04/2019-04-22-how-common-is-polyploidy-among-eukaryotes/
 tags:
   - evolution

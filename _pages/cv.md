@@ -11,19 +11,27 @@ redirect_from:
 
 Education
 ======
-* M.S. in Mathematical biology, Institute of Biostatistics and Analyses, Brno, Czech Republic, 2015
-* Ph.D in Evolutionary bioinformatics, Department of Ecology and Evolution, University of Lausanne, 2019 (expected)
+
+* Ph.D in Evolutionary bioinformatics, Department of Ecology and Evolution, University of Lausanne, 2019
+* M.Sc. in Mathematical biology, Institute of Biostatistics and Analyses, Brno, Czech Republic, 2015
 
 Work experience
 ======
-* Summer 2012: Laboratory technician
-  * Institute of Vertebrate Biology, Academy of Sciences, Czech Republic
-  * DNA isolation, primer design, optimization of PCR reactions
-  * Supervisor: Natália Martínková
+
+* October 2019 - now
+  * Institute of Evolutionary Biology, The University of Edinburgh
+
+* September 2015 - September 2019
+  * Department of Ecology and Evolution, University of Lausanne
 
 * Summer 2014, 2015: Data analyst
   * Institute of Vertebrate Biology, Academy of Sciences, Czech Republic
   * Analysis of quantitative PCR
+  * Supervisor: Natália Martínková
+
+* Summer 2012: Laboratory technician
+  * Institute of Vertebrate Biology, Academy of Sciences, Czech Republic
+  * DNA isolation, primer design, optimization of PCR reactions
   * Supervisor: Natália Martínková
 
 Skills
