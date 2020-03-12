@@ -7,32 +7,21 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+[Structured cv in pdf format](add url).
 
-Education
+In more details
+
+Teaching
 ======
+At [Teaching](../teaching) page.
 
-* Ph.D in Evolutionary bioinformatics, Department of Ecology and Evolution, University of Lausanne, 2019
-* M.Sc. in Mathematical biology, Institute of Biostatistics and Analyses, Brno, Czech Republic, 2015
-
-Work experience
+Full list of publications
 ======
+Available at [my Google scholar](https://scholar.google.com/citations?user=I_Kn3nAAAAAJ) page.
 
-* October 2019 - now
-  * Institute of Evolutionary Biology, The University of Edinburgh
 
-* September 2015 - September 2019
-  * Department of Ecology and Evolution, University of Lausanne
-
-* Summer 2014, 2015: Data analyst
-  * Institute of Vertebrate Biology, Academy of Sciences, Czech Republic
-  * Analysis of quantitative PCR
-  * Supervisor: Natália Martínková
-
-* Summer 2012: Laboratory technician
-  * Institute of Vertebrate Biology, Academy of Sciences, Czech Republic
-  * DNA isolation, primer design, optimization of PCR reactions
-  * Supervisor: Natália Martínková
+<!-- {% include base_path %}
+I did quite a bit of teaching, an overview and philosophy is .
 
 Skills
 ======
@@ -60,4 +49,4 @@ Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->

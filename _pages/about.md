@@ -8,6 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am Kamil, some people call me Slim (means slug). I am an evolutionary biologist that spends his days in front of a computer looking at weird genomes.
+I am an evolutionary biologist that spends his days in front of a computer looking at weird genomes.
 
 I like open-source and open-science, statistics, genome assembly, well-written documentation, stick insects, README files, non-anonymous reviewers and declared conflicts of interests.
