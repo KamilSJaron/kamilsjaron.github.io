@@ -7,17 +7,17 @@ redirect_from:
   - /resume
 ---
 
-[Structured cv in pdf format](add url).
+<a href="https://www.overleaf.com/read/ppbbmfgbsvvf" style="color:#22A5CD;">Structured cv in pdf format</a>
 
 In more details
 
 Teaching
 ======
-At [Teaching](../teaching) page.
+At <a href="../teaching" style="color:#22A5CD;">Teaching</a> page.
 
 Full list of publications
 ======
-Available at [my Google scholar](https://scholar.google.com/citations?user=I_Kn3nAAAAAJ) page.
+Available at <a href="https://scholar.google.com/citations?user=I_Kn3nAAAAAJ" style="color:#22A5CD;">my Google scholar</a> page.
 
 
 <!-- {% include base_path %}
