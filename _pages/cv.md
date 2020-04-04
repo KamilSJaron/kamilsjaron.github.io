@@ -7,17 +7,11 @@ redirect_from:
   - /resume
 ---
 
-<a href="https://www.overleaf.com/read/ppbbmfgbsvvf" style="color:#22A5CD;">Structured cv in pdf format</a>
 
-In more details
 
-Teaching
-======
-At <a href="../teaching" style="color:#22A5CD;">Teaching</a> page.
+Structured cv in <a href="https://www.dropbox.com/s/jlph7p5pg9wlis8/Kamil_S__Jaron_CV.pdf?dl=0" style="color:#22A5CD;">pdf format</a> and corresponding <a href="https://www.overleaf.com/read/ppbbmfgbsvvf" style="color:#22A5CD;">LaTeX sourcefiles</a>.
 
-Full list of publications
-======
-Available at <a href="https://scholar.google.com/citations?user=I_Kn3nAAAAAJ" style="color:#22A5CD;">my Google scholar</a> page.
+Some more details on **teaching** are on the <a href="../teaching" style="color:#22A5CD;">Teaching</a> page and a **full list of publications** is available at <a href="https://scholar.google.com/citations?user=I_Kn3nAAAAAJ" style="color:#22A5CD;">my Google scholar</a> page.
 
 
 <!-- {% include base_path %}
