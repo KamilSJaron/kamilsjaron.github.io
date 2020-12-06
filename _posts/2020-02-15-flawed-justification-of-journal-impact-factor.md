@@ -6,6 +6,7 @@ tags:
   - journal impact factor
   - early career researchers
   - ethics
+  - publishing
 ---
 
 About a year and half ago [an article by John Tregoning was published in Nature News](https://www.nature.com/articles/d41586-018-05467-5). The short piece was openly defending the prevalent usage of journal impact factor for evaluation of junior scientists for their sake. As a junior scientist I felt bitter. The publishing system is a huge academic problem we should do something about it! And as far as I know, young scientists are the loudest in pointing out new ways for less morally corrupted sharing of knowledge and therefore I find unfair a senior academic takes us, as an argument for keeping the status quo.
