@@ -53,11 +53,11 @@ The final, but also a major consideration is the accessibility. Some of the pape
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Nature announces landmark new publishing options: Hybrid open-access with embargo lifted after very short 125 year period! <a href="https://t.co/f797EqSMdJ">https://t.co/f797EqSMdJ</a></p>&mdash; Alex Anderson (@aanderson_94) <a href="https://twitter.com/aanderson_94/status/1333440280058613765?ref_src=twsrc%5Etfw">November 30, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Practically preventing any non-accademic, and less wealthy university folks to read it. It's actually quite crazy to consider that it was actually taxpayers that paid us to do the job and now they are not even able to see the outcome. However, there are sooo may blogs about that, that I won't even bother discussing this more.
+Practically preventing any non-academic, and less wealthy university folks to read it. It's actually quite crazy to consider that it was actually taxpayers that paid us to do the job and now they are not even able to see the outcome. However, there are sooo many blogs about that, that I won't even bother discussing this more.
 
 ### What are the moral publishing options?
 
-I created a list of 42 biological journals that I consider to have at least some moral value. I tried to collect all the journals of non-profit publishers and all society journals. I am pretty sure I must have missed some, I am happy to take suggestions and update the list accordingly.
+I created a list of 57 biological journals that I consider to have at least some moral value. I tried to collect all the journals of non-profit publishers and all society journals. I am pretty sure I must have missed some, I am happy to take suggestions and update the list accordingly.
 
 DISCLAIMER, I refuse any liability for correctness of the sheet. I tried my best to be accurate, but I could have made a mistake. If so, please, let me know and I will fix it. Here is the [sheet with journals](https://docs.google.com/spreadsheets/d/1HU8jEUzdMrlkZYTrJqZAWsqweAqNv4YRr661dzdAmlU/edit).
 
