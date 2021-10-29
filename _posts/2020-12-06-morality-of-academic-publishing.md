@@ -61,3 +61,9 @@ I created a list of 57 biological journals that I consider to have at least some
 
 DISCLAIMER, I refuse any liability for correctness of the sheet. I tried my best to be accurate, but I could have made a mistake. If so, please, let me know and I will fix it. Here is the [sheet with journals](https://docs.google.com/spreadsheets/d/1HU8jEUzdMrlkZYTrJqZAWsqweAqNv4YRr661dzdAmlU/edit).
 
+### 2021 update
+
+The sheet now contains 106 journals thanks to contributions of various people (but mostly [Markéta Vlková](https://twitter.com/m_vlkova)).
+
+Furthermore, there is a new release of a lot larger and more nicely looking database of 290 non-profit and society journals run by the Institut des Sciences de l'Evolution de Montpellier: https://dafnee.isem-evolution.fr/ 
+
