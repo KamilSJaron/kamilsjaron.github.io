@@ -16,7 +16,11 @@ Few days ago, the world learned about two California condor chicks that were pro
 
 ### Parthenogenesis across the tree of life
 
-The thing is, parthenogenesis is rare among animals and occurs lot more frequently in certain parts of the animal tree of life. There are plenty of cases of parthenogenetic arthropods or fishes, but only very few cases among groups as sharks or birds and there is no case at all in mammals. Why is that? Well it all depends on how far is the regular sexual reproduction of the species/clade from parthenogenetic. Two main factors are:
+The thing is, parthenogenesis is relatively rare among animals and occurs lot more frequently in certain parts of the animal tree of life. There are plenty of cases of parthenogenetic arthropods or fishes, but only very few cases among groups as sharks or birds and there is no case at all in mammals. Therefore every time there is a virgin birth in sharks or this time in birds, it creates a fuzz
+
+![condor_meme](https://imgflip.com/i/5sc60f)
+
+Why is that? Well it all depends on how far is the regular sexual reproduction of the species/clade from parthenogenetic. Two main factors are:
 
   1. How the egg gets the same number of chromosomal sets (i.e. ploidy) as mum does?
   2. How the development of unfertilised gamete gets triggered?
