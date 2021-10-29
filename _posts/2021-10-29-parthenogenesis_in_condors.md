@@ -33,11 +33,14 @@ Let's start with very basis - two different female condors (of course a female) 
 
 That narrows our search for the type of facultative parthenogenesis in condors. The only two types that will generate an unreduced gamete are either automixis terminal fusion or gamete duplication. The difference is in the heterozygosity loss, while terminal fusion has a capacity to preserve heterozygosity around telomeric regions, gamete duplication will cause a complete loss of heterozygosity. The male, although really diploid, will be effectively haploid, because the two genomic copies will be practically identical.
 
-Which one is it then? If we take a look at the results, authors of [the original study](https://academic.oup.com/jhered/advance-article/doi/10.1093/jhered/esab052/6412509), used 11 informative markers. They determined genotype of mums, their mates and their sons. Sons shared no genotypes with their dads (that'w how they found they are parthenogenetic), but moreover, they were homozygous for all 11 loci they inherited from their mum. You can check it in [this table](https://academic.oup.com/view-large/308655688). Therefore my best guess is gamete duplication.
+Which one is it then? If we take a look at the results, authors of [the original study by Ryder et al.](https://academic.oup.com/jhered/advance-article/doi/10.1093/jhered/esab052/6412509), used 11 informative genetic markers. They determined genotype of mums, their mates and their sons. Sons shared no genotypes with their dads (that'w how they found they are parthenogenetic), but moreover, they were homozygous for all 11 loci they inherited from their mum. You can check it in [this table](https://academic.oup.com/view-large/308655688). Therefore my best guess is gamete duplication.
 
 This is actually really really cool. There is a scientific word for parthenogenesis where mums generate sons parthenogenetically - arrhenotoky. This form of reproduction is known in ants, bees, thirps or some mites and it is called "[Haplodiploidy](https://en.wikipedia.org/wiki/Haplodiploidy)". That's because females are diploid and sexual, while males are haploid and parthenogenetic (all eggs that are not fertilised will develop in males). This is a very interesting system, but till known only in arthropods and rotifers (check [this review](https://www.sciencedirect.com/science/article/pii/S221457451500084X) for more info).
 
-Therefore, California condors are the first vertebrate pecies with occasional arrhenotoky. Which is actually really interesting peculiarity. However, what are the real implications for conservation?
+Therefore, California condors are the first vertebrate species with occasional arrhenotoky. Which is actually really interesting peculiarity. However, what are the real implications for conservation?
+
+![californan_condor_pic](https://miro.medium.com/max/13920/1*MFhyy9d63yB7jxhlCAtr5A.jpeg)
+Photo by Chris Trent from [usfws.medium.com](https://usfws.medium.com/what-to-do-if-the-california-condor-visits-your-home-da3e71d060d).
 
 ### Can condors have parthenogenetic daughters?
 
@@ -48,8 +51,5 @@ This is perhaps the reason why parthenogenesis in birds is so rare. In general, 
 Furthermore, although authors call it a facultative parthenogenesis, but it is really far away from what we call facultative parthenogenesis in species that actually utilise this reproduction as a strategy, rather than rare accidents as those in condors or sharks. This was pointed out to me by [Darren J. Parker](https://twitter.com/DarrenJParker), in mayflies only species with hatching rate of more than 10% of unfertilised eggs are considered facultative parthenogenetic (Check Box 1 in [this amazing paper](https://academic.oup.com/jhered/article/112/1/45/5904753#B1) on parthenogenesis in mayflies). Liegeois et al. argue that with less than 10%, we should call it "spontaneous parthenogenesis" as it has only very small effects on population size and sex ratio. And for a good reason. It is very unlikely that the two male condors changed much, even in small condor population and it is also not very likely that next spontaneously generated males will.
 
 However, even if the parthenogenesis in condors IS a lot more frequent than we think, the only consequence would be a bias the sex ratio in the population, which is actually not so great given [Californian condors mate for life](https://www.audubon.org/news/till-death-do-them-part-8-birds-mate-life).
-
-![californan_condor_pic](https://miro.medium.com/max/13920/1*MFhyy9d63yB7jxhlCAtr5A.jpeg)
-Photo by Chris Trent from [usfws.medium.com](https://usfws.medium.com/what-to-do-if-the-california-condor-visits-your-home-da3e71d060d).
 
 So, I would say the observation is really really cool, but I am quite sceptical about implication for the future of condor conservation.
