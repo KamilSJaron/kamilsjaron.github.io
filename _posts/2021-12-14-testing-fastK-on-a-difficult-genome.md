@@ -10,7 +10,7 @@ tags:
 
 Once per while there is a new way how to do things and speed up computations in the world of kmer genomics. Sometimes the tricks are simply more efficient algorithms, but sometimes the tricks are shortcuts that don't do excatly the same thing. Here I would like to dig a bit in the relatively new k-mer counter `FastK` and compare it with my personal favourite `KMC`. If you are wondering if it is worth learning new tool, this blogpost might be able to help you make your mind.
 
-![](https://imgflip.com/i/5xs5pl])
+![](https://i.imgflip.com/5xs5pl.jpg)
 
 ### Testing FastK on a difficult genome
 
