@@ -8,10 +8,9 @@ tags:
   - benchmarking
 ---
 
+Once per while there is a new way how to do things and speed up computations in the world of kmer genomics. Sometimes the tricks are simply more efficient algorithms, but sometimes the tricks are shortcuts that don't do excatly the same thing. Here I would like to dig a bit in the relatively new k-mer counter `FastK` and compare it with my personal favourite `KMC`. If you are wondering if it is worth learning new tool, this blogpost might be able to help you make your mind.
 
 ### Testing FastK on a difficult genome
-
-The world of kmer genomics once per while comes with a new way how to do things and speed up computations. Sometimes the tricks are simply more efficient algorithms, but sometimes the tricks are shortcuts that don't do excatly the same thing.
 
 [Gene Myers](https://www.mpi-cbg.de/research-groups/current-groups/gene-myers/group-leader/) last year shared on GitHub his fork of GenomeScope v2.0 that works on turnicated kmer spectra [GENESCOPE.FK](https://github.com/thegenemyers/GENESCOPE.FK) calculated by his new ultrafast kmer counter [FastK](https://github.com/thegenemyers/FASTK). I immediately started writing this blogpost and then I fogot about it. So, with a year delay, here is testing of the software on a difficult genome, compared to the tools I routinely use.
 
