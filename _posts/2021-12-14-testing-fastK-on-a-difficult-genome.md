@@ -10,6 +10,8 @@ tags:
 
 Once per while there is a new way how to do things and speed up computations in the world of kmer genomics. Sometimes the tricks are simply more efficient algorithms, but sometimes the tricks are shortcuts that don't do excatly the same thing. Here I would like to dig a bit in the relatively new k-mer counter `FastK` and compare it with my personal favourite `KMC`. If you are wondering if it is worth learning new tool, this blogpost might be able to help you make your mind.
 
+![](https://imgflip.com/i/5xs5pl])
+
 ### Testing FastK on a difficult genome
 
 [Gene Myers](https://www.mpi-cbg.de/research-groups/current-groups/gene-myers/group-leader/) last year shared on GitHub his fork of GenomeScope v2.0 that works on turnicated kmer spectra [GENESCOPE.FK](https://github.com/thegenemyers/GENESCOPE.FK) calculated by his new ultrafast kmer counter [FastK](https://github.com/thegenemyers/FASTK). I immediately started writing this blogpost and then I fogot about it. So, with a year delay, here is testing of the software on a difficult genome, compared to the tools I routinely use.
@@ -103,7 +105,7 @@ K-mer spectra analyses are usually quite robust to messiness in data. In vast ma
 
 This is exactly the case of the marbeled crayfish:
 
-!(raw_reads)[https://user-images.githubusercontent.com/8181573/145909151-aeea3df4-9556-4aa7-9d90-2a9576117fe6.png]
+![](https://user-images.githubusercontent.com/8181573/145909151-aeea3df4-9556-4aa7-9d90-2a9576117fe6.png)
 
 You see the model is a lot more messy. The error peak and the heterozygosity peaks are blended and both genome size and heterozygosity estimates are quite off comapred to the fits above.
 
