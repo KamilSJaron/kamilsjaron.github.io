@@ -13,9 +13,9 @@ tags:
 
 The world of kmer genomics once per while comes with a new way how to do things and speed up computations. Sometimes the tricks are simply more efficient algorithms, but sometimes the tricks are shortcuts that don't do excatly the same thing.
 
-Gene Myers earlier this year shared on GitHub his fork of GenomeScope v2.0 that works on turnicated kmer spectra [GENESCOPE.FK](https://github.com/thegenemyers/GENESCOPE.FK) calculated by his new ultrafast kmer counter [FASTK](https://github.com/thegenemyers/FASTK).
+[Gene Myers](https://www.mpi-cbg.de/research-groups/current-groups/gene-myers/group-leader/) last year shared on GitHub his fork of GenomeScope v2.0 that works on turnicated kmer spectra [GENESCOPE.FK](https://github.com/thegenemyers/GENESCOPE.FK) calculated by his new ultrafast kmer counter [FastK](https://github.com/thegenemyers/FASTK). I immediately started writing this blogpost and then I fogot about it. So, with a year delay, here is testing of the software on a difficult genome, compared to the tools I routinely use.
 
-A picked a decently sized and relatively hard benchmarking genome - the triploid Marbled Crayfish genome ([Gutekunst et al. 2018](https://www.nature.com/articles/s41559-018-0467-9)) that contains several super-repetitive genomic kmers that were messing up all the initial kmer analyses of the genome ([check this older blogpost](https://kamilsjaron.github.io/peculiar-genomic-observations/biological/2020/01/crayfish.html)).
+The difficult benchmarking genome I picked is the triploid Marbled Crayfish genome ([Gutekunst et al. 2018](https://www.nature.com/articles/s41559-018-0467-9)). The genome contains several super-repetitive genomic kmers that were messing up all the initial kmer analyses of the genome ([check this older blogpost](https://kamilsjaron.github.io/peculiar-genomic-observations/biological/2020/01/crayfish.html)).
 
 The aim of this blog is to:
   1. clarify the difference between the two approaches to calculate k-mer spectra
@@ -23,7 +23,7 @@ The aim of this blog is to:
   3. Benchmark the speed of the two k-mer counters
   4. BONUS: the effect of trimming to the quality of fit
 
-To see how exactly I did analysis for the blog, see Methods sections bellow.
+To see how exactly I did analyses for this blog, see Methods sections bellow.
 
 ### The practical difference between KMC and FastK
 
