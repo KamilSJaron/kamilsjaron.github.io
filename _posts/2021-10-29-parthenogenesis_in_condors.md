@@ -1,6 +1,6 @@
 ---
 title: 'How exciting is parthenogenesis in condors?'
-date: 2020-12-06
+date: 2021-10-29
 permalink: /posts/2021/10/2021-10-29-parthenogenesis-in-condors/
 tags:
   - evolution
