@@ -171,6 +171,11 @@ with all the data, let's jump to kmer counting.
 
 Halfway thought the benchmarking I recalled that the crayfish data were borderline noisy and it was actually really helpful to trim them. It also afect the kmer counters as it will decrease quite a lot the number of distinct kmers in the dataset.
 
+The trimming was done using [skewer](https://github.com/relipmoc/skewer) for each two files as
+
+```bash
+skewer -z -m pe -n -q 26 -l 21 -t 8 -o data/Pvir1/trimmed_reads/"$ACCESION" data/Pvir1/raw_reads/"$ACCESION"_{1,2}.fastq.gz
+```
 
 ### FastK
 
