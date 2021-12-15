@@ -23,12 +23,13 @@ The aim of this blog is to:
   2. Comparing quality of GenomeScope fits to the two spectra
   3. Benchmark the speed of the two k-mer counters
   4. BONUS: the effect of trimming to the quality of fit
+  5. BONUS 2: comparing to another, even faster k-mer counter `ntCard`.
 
 To see how exactly I did analyses for this blog, see Methods sections bellow.
 
 ### The practical difference between KMC and FastK
 
-`KMC` is a k-mer counter that is "giving-up" on k-mer coverage over a threshold specified by parameter (`-cx`). Every k-mer with coverage higher than that will be simply reported as with `cx` coverage. This is what is causing problems with the real k-mer coverage is a lot higher for plenty of real genomic k-mers ([as discussed in that already linked older blogpost](https://kamilsjaron.github.io/peculiar-genomic-observations/biological/2020/01/crayfish.html)).
+`KMC` is a k-mer counter that is "giving-up" on k-mer coverage over a threshold specified by parameter (`-cs`). Every k-mer with coverage higher than that will be simply reported as with `cx` coverage. This is what is causing problems with the real k-mer coverage is a lot higher for plenty of real genomic k-mers ([as discussed in that already linked older blogpost](https://kamilsjaron.github.io/peculiar-genomic-observations/biological/2020/01/crayfish.html)).
 
 `FastK` on the other hand uses a different strategy - it calculates coverages in fixed coverage range 1 to ~2^15x (32768). And for all k-mers with coverage above, it calculates the total count. Furthermore, `Histex` (`FastK` tool to make histograms) produces histograms of freqiencies of coverages for all but the last calculated coverage values (by default 100x). The last frequency does not represent the number of distinct k-mers with this coverage or higher (as in KMC), but the theoretical number of distinct k-mers with that coverage and would generate the same coverage as the repetitive k-mers.
 
@@ -111,9 +112,41 @@ You see the model is a lot more messy. The error peak and the heterozygosity pea
 
 This is just for an inspiration. If you have one of these "edge" datasets, you might want to try decrease your k and trim the reads before fitting a genome model.
 
+### BONUS 2: comparing KMC and FastK to ntCard
+
+Rayan Chikhi asked why I did not [use ntCard](https://github.com/bcgsc/ntCard). And it is a fair question. Although `ntCard` is much less popular than `Jellyfish` or `KMC`, this tool managed to get the histogram from the same dataset in impressive **13m7s** (16 cores and 512GB memory at disposition), which is 2.5x faster than `FastK`.
+
+Why not `ntCard` then?
+
+Although I requested calculation of coverage to up to 500000000x, all I got was ~65404x (looks like 2^16 is the limit).
+
+```
+tail histograms/ntcard_k17_full.hist
+64816	1030
+64817	2
+65299	1030
+65300	2
+65311	1030
+65312	2
+65329	1030
+65330	2
+65403	1030
+65404	2
+```
+
+This limit creates a big problem for correct genome size estimate. [The model](https://user-images.githubusercontent.com/8181573/146101115-a9983189-631e-4a8e-b300-4e3e5a29f3fc.png) based on `ntCard` histogram estimated the genome size to 2.6Gbp only, which is nearly 1Gbp less than expected.
+
+This probably won't be a problem for any smallish genomes. So folks that know the coverage limitation is not a problem for them might want consider `ntCard` as the weapon of choice. Furthermore, the reaction of the developers on twitter gave me hopes we might see the high coverage k-mer counting feature implemented some time.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">ntCard likely uses 16 bit integers as counters, hence the limit. Sounds like a simple change I can try, at the cost of memory usage.</p>&mdash; Vladimir Nikolić (@chutzycat) <a href="https://twitter.com/chutzycat/status/1470946259473211398?ref_src=twsrc%5Etfw">December 15, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ### Final remarks
 
-**FastK is quite a bit faster** and the speed-up is more significant for read sets with higher fraction of **repetitive k-mers**. If you run k-mer analyses on daily basis, you might want to consider switching to FastK.
+(updated)
+
+**ntCard** is by far the fastest method to create a k-mer spectrum, but unfortunately it does not do well with extremely repetitive k-mers.
+
+Among those that allow us to estimate the genome size correctly, **FastK is quite a bit faster** than KMC and the speed-up is more significant for read sets with higher fraction of **repetitive k-mers**. If you run k-mer analyses on daily basis, you might want to consider switching to FastK.
 
 However, that applies only to people that are not interested in the repetitive k-mers. I would be personally really interested to understand what are all these superrepetitive k-mers about and knowing their sequence and exact coverage distribution is a fine way to start.
 
@@ -160,14 +193,14 @@ sys     26m17.831s
 
 now let's try to fit the GenomeScopeFK model
 
-```
+```bash
 Histex -G data/Pvir1/FastK_Table | GeneScopeFK -o data/Pvir1/GenomeScopeFK/ -k 17
 mkdir -p data/Pvir1/FastK_raw && mv data/Pvir1/FastK_Table* data/Pvir1/FastK_raw
 ```
 
 16 cores FastK on trimmed reads:
 
-```
+```bash
 time FastK -v -t1 -k17 -M120 -T16 -Ndata/Pvir1/FastK_Table data/Pvir1/trimmed_reads/*.fastq.gz
 ```
 
@@ -175,7 +208,7 @@ real  33m51.042s
 user  294m18.802s
 sys   19m43.606s
 
-```
+```bash
 Histex -G data/Pvir1/FastK_Table | GeneScopeFK.R -p 3 -o data/Pvir1/GenomeScopeFK_trimmed/ -k 17
 
 data/Pvir1/GenomeScopeFK_trimmed/
@@ -186,10 +219,10 @@ data/Pvir1/GenomeScopeFK_trimmed/
 
 4 threads, 120G of memory
 
-```
+```bash
 ls data/Pvir1/raw_reads/*.fastq.gz > FILES
 time kmc -k17 -t4 -m120 -ci1 -cs500000000 @FILES data/Pvir1/kmc_kmer_counts tmp
-kmc_tools transform kmer_counts histogram kmer_k21.hist -cx10000
+kmc_tools transform kmer_counts histogram kmer_k21.hist -cx500000000
 ```
 
 real    234m39.822s
@@ -198,7 +231,7 @@ sys     20m33.598s
 
 16 threads, 120G of memory
 ￼
-```
+```bash
 ls data/Pvir1/trimmed_reads/*.fastq.gz > FILES
 time kmc -k17 -t16 -m120 -ci1 -cs500000000 @FILES data/Pvir1/kmc_kmer_counts tmp
 ```
@@ -207,14 +240,28 @@ real  89m29.979s
 user  1003m9.061s
 sys   33m15.212s
 
-```
+```bash
 kmc_tools transform data/Pvir1/kmc_kmer_counts histogram data/Pvir1/kmer_k17_full_with_zeros.hist -cx500000000
 awk '{ if( $2 != 0 ){ print $0 } }' data/Pvir1/kmer_k17_full_with_zeros.hist > data/Pvir1/kmer_k17_full.hist && rm data/Pvir1/kmer_k17_full_with_zeros.hist
 genomescope.R -p 3 -l 18 -i data/Pvir1/kmer_k17_full.hist -o data/Pvir1/GenomeScope_trimmed/
 ```
 
+### ntCard
 
+I will test `ntcard` with 16 cores / trimmed reads only (because I erased the raw ones already) and it seems I can't specify the limit of used memory.
 
+```bash
+time ntcard -t 16 -k 17 -c 500000000 -o data/Pvir1/ntCard_k17_original.hist @FILES
+# k=17    F1      195565806188
+# k=17    F0      1848640577
+# Runtime(sec): 1904.6886
+#
+# real    31m44.696s
+# user    204m23.762s
+# sys     13m7.284s
 
+tail -n+2 data/Pvir1/ntCard_k17_original.hist | cut -f 2,3 | awk '{ if( $2 != 0 ){ print $0 } }' > data/Pvir1/ntCard_k17_full.hist
+genomescope.R -i data/Pvir1/ntCard_k17_full.hist -o data/Pvir1/ntkart_trimmed -n Pvir1 -l 18 -p 3
+```
 
 ￼
