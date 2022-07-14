@@ -80,7 +80,7 @@ author:
   name             : "Kamil S. Jaron"
   avatar           : "profile.png"
   bio              : "genome naturalist;"
-  location         : "University of Edinburgh"
+  location         : "taking a break (but soon at Sanger Institute)"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=I_Kn3nAAAAAJ"
   email            : "kamiljaron@gmail.com"
@@ -168,13 +168,7 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
-    output: true
-    permalink: /:collection/:path/
-  projects:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -202,33 +196,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _projects
-  - scope:
-      path: ""
-      type: projects
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
   # _talks
   - scope:
       path: ""
