@@ -80,7 +80,7 @@ author:
   name             : "Kamil S. Jaron"
   avatar           : "profile.png"
   bio              : "genome naturalist;"
-  location         : "taking a break (but soon at Sanger Institute)"
+  location         :
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=I_Kn3nAAAAAJ"
   email            : "kamiljaron@gmail.com"
@@ -109,6 +109,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  cv               : "https://www.overleaf.com/read/ppbbmfgbsvvf"
 
 
 # Reading Files
