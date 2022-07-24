@@ -8,6 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am an evolutionary biologist that spends his days in front of a computer looking at weird genomes.
+Hi, I am Kamil. (Now I am testing new layout of this page.) This is my personal blog about my immature (mostly) evolutionary thoughts! I also have this poorly maintained collections of [peculiar genomic observations](https://kamilsjaron.github.io/peculiar-genomic-observations/) and my professional webpage (under construction).
 
-I like open-source and open-science, statistics, genome assembly, well-written documentation, stick insects, README files, non-anonymous reviewers and declared conflicts of interests.
+### Blogposts
+
+{% include base_path %}
+{% for post in site.pages %}
+  {% include archive-single.html %}
+{% endfor %}
